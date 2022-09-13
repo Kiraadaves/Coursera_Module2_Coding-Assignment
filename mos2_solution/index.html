@@ -4,8 +4,93 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>KCOOKS</title>
+	<style type="text/css">
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			font-family: sans-serif;
+			font-size: 120%;
+		}
+		.row {
+			width: 100%;
+			margin-top: 50px;
+		}
+
+		.col {
+			background-color: lightgrey;
+			border: 1px solid black;
+			margin-left: 15px;
+margin-left: 15px;
+			height: 150px;
+			width: 90%;
+
+		}
+		h1, h2 {
+			text-align: center;
+			
+		}
+
+		#chicken {
+			background-color: #FEA5D0;
+		}
+		#beef {
+			background-color: #D32A28;
+		}
+		#sushi {
+			background-color: #F8C642;
+		}
+p {
+	clear: right;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 75%;
+	margin-bottom: 5px;
+}
+		h2 {
+			width: 32%;
+			float: right;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			font-size: 85%;
+			margin-top: 0;
+			border: 1px solid black;
+		}
+		@media (min-width: 992px) {
+			.col-lg-4 {
+float: left;
+width: 32%;
+			}
+		}
+@media (max-width: 991px) and (min-width: 768px) {
+			.col-lg-6 {
+				float: left;
+width: 80%;
+			}
+		}
+		@media (max-width: 767px) {
+			.col-sm-12 {
+float: left;
+width: 100%;
+margin-top: 15px;
+			}
+		}
+
+	</style>
 </head>
 <body>
+	<h1>Our Menu</h1>
+	<div class="row">
+<div id="div1" class="col col-lg-4 col-md-6"><h2 id="chicken">Chicken</h2><p id="p1">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<div id="div2" class="col col-lg-4 col-md-6"><h2 id="beef">Beef</h2>
+<p id="p1">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<div id="div3" class="col col-lg-4 col-md-6"><h2 id="sushi">Sushi</h2>
+<p id="p1">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+	</div>
 
 </body>
 </html>
